@@ -63,18 +63,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CameraShake.cs" />
-    <Compile Include="Assets\Enemy.cs" />
-    <Compile Include="Assets\Fireball.cs" />
-    <Compile Include="Assets\Flag.cs" />
-    <Compile Include="Assets\Heart.cs" />
-    <Compile Include="Assets\LevelSelection.cs" />
-    <Compile Include="Assets\Magic.cs" />
-    <Compile Include="Assets\MainMenu.cs" />
-    <Compile Include="Assets\MovingPlatform.cs" />
-    <Compile Include="Assets\Patrol.cs" />
+    <Compile Include="Assets\Scripts\CameraShake.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Fireball.cs" />
+    <Compile Include="Assets\Scripts\Flag.cs" />
+    <Compile Include="Assets\Scripts\Grass.cs" />
+    <Compile Include="Assets\Scripts\Heart.cs" />
+    <Compile Include="Assets\Scripts\LevelSelection.cs" />
+    <Compile Include="Assets\Scripts\Magic.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\MovingPlatform.cs" />
+    <Compile Include="Assets\Scripts\Patrol.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\UnlockLeveL.cs" />
+    <Compile Include="Assets\Scripts\UnlockLeveL.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/ygmrc/Downloads/Attempt-To-master11/Yeteraq/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
