@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class Enemy : MonoBehaviour
 
     public GameObject Blood;
 
+
+    public Slider hb;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +25,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        hb.value = health;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

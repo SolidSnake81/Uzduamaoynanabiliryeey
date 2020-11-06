@@ -54,21 +54,11 @@ public class Player : MonoBehaviour
 
     public int damage;
 
-
-
     public GameObject Blood;
 
     AudioSource source;
 
-
-
-
-
-
-
-
     public AudioClip jumpSound;
-
 
     public AudioClip hurtSound;  
 
@@ -193,28 +183,13 @@ public class Player : MonoBehaviour
     public void TakeDamage(int damage)
     {
 
-
-
-
-
-
-
         source.clip = hurtSound;
+
         source.Play();
-
-
-
-
-
-
-
 
         Instantiate(Blood, transform.position, Quaternion.identity); 
 
-
-
         FindObjectOfType<CameraShake>().Shake();
-
 
         health -= damage;
         print(health);
@@ -235,7 +210,7 @@ public class Player : MonoBehaviour
 
         foreach (Collider2D col in enemiesToDamage)
         {
-            col.GetComponent<Enemy>().TakeDamage(damage);
+            col.GetComponent<BossHealth>().TakeDamage(damage);
         }
     }
     private void OnDrawGizmosSelected()
