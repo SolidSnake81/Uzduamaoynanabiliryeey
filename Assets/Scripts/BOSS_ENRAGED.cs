@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class BOSS_ENRAGED : StateMachineBehaviour
 {
+
+	// I tried to make the boss Invulnerable while the boss is entering the enraged mode it has some problems too 
+
 	// OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
 	override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 	{

@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 public class BOSS : MonoBehaviour
 {
+
+    
+    // Destroyer bosses general code cant go the outro stage i dont know if that because of the code something about unity 
+
     // Start is called before the first frame update
     
     // Update is called once per frame

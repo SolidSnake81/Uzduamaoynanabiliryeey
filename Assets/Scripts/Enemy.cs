@@ -7,6 +7,10 @@ public class Enemy : MonoBehaviour
 {
 
 
+    
+
+    // This is the Red Demons Health Thing It does not work im using it for the destroyer boss   
+
     public int damage;
 
     public int health;
@@ -47,7 +51,6 @@ public class Enemy : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
-
         }
 
     }

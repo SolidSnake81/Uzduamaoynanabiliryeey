@@ -6,6 +6,8 @@ public class CameraShake : MonoBehaviour
 {
 
 
+    //  Shake  Code   Works Good  
+
     Animator animator;  
         
          

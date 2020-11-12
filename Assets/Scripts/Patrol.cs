@@ -5,6 +5,10 @@ using UnityEngine;
 public class Patrol : Enemy 
 {
 
+
+
+    // Basic Patrol Code  Works Good  
+
     public Transform[] patrolPoints;
 
     public float speed;
@@ -18,9 +22,6 @@ public class Patrol : Enemy
     Animator animator;
 
  
-
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -64,8 +65,6 @@ public class Patrol : Enemy
                 waitTime -= Time.deltaTime;  
             }
 
-
-          
         }
 
         else

@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Demon : MonoBehaviour
 {
+
+	//  Flip code   Works Good  
+
+
 	public Transform player;
 
 	public bool isFlipped = false;

@@ -5,6 +5,9 @@ using UnityEngine;
 public class Magic : Enemy
 {
 
+    // Magics Code Does Not Work Good Enough 
+
+
     public GameObject fireball_red_1;
 
     public float timeBetweenShots;

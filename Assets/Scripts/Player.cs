@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    // There might be some code mess in here if have any problems just ask me 
 
     public float speed;
 
@@ -200,8 +201,6 @@ public class Player : MonoBehaviour
         }
 
     }
-
-
 
       public void attack ()
     {

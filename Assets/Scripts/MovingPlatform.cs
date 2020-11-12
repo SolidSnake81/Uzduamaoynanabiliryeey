@@ -5,6 +5,8 @@ using UnityEngine;
 public class MovingPlatform : MonoBehaviour
 {
 
+    // Basic Moving Platform Have Minor Bugs 
+
     public Transform[] patrolPoints;
 
     public float speed;

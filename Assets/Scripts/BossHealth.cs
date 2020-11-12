@@ -5,6 +5,9 @@ using UnityEngine.UI;
 public class BossHealth : MonoBehaviour
 {
 
+
+	// Invulnerable does not work   
+
 	public int health = 9;
 
 	public GameObject deathEffect;

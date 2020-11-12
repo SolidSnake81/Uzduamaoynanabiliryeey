@@ -7,10 +7,12 @@ using UnityEngine.SceneManagement;
 public class LevelSelection : MonoBehaviour
 {
 
+
+    // Very Basic loading code   Works Good  
+
     public void LoadLevel(string sceneName)
 
     {
-
         SceneManager.LoadScene(sceneName);
     }
 

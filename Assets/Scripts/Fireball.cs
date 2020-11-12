@@ -5,32 +5,28 @@ using UnityEngine;
 public class Fireball : MonoBehaviour
 {
 
-
+    // Magics Fire Ball Script Have Minor Bugs 
 
     public float speed;  
 
-
     public int damage;
 
-
-
-
-
-
-
     public float lifeTime; 
+
     // Start is called before the first frame update
     void Start()
     {
 
-
         Destroy(gameObject, lifeTime); 
+
     }
 
     // Update is called once per frame
     void Update()
     {
+
         transform.Translate(Vector2.right * speed * Time.deltaTime);
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -39,6 +35,7 @@ public class Fireball : MonoBehaviour
         {
             collision.GetComponent<Player>().TakeDamage(damage);
         }
+       
         Destroy(gameObject);    
     }
 }

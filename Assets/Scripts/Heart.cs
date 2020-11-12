@@ -5,9 +5,13 @@ using UnityEngine.UI;
 
 public class Heart : MonoBehaviour
 {
-   
 
 
+
+
+
+
+    // Its working but i dont want to make a hearth by hearth system i want a slider system 
 
 
     public int numberOfHearts; 

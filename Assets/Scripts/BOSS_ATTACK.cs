@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class BOSS_ATTACK : MonoBehaviour
 {
+
+	// Attack Code Works Good 
+
 	public int attackDamage = 2;
 	public int enragedAttackDamage = 4;
 

@@ -6,6 +6,13 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
 
+    
+
+
+
+
+    // Main Menu Code Works Good
+
     public GameObject panel;  
     public void LoadScene (string sceneName)
 
